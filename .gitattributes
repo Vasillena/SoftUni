@@ -1,1 +1,3 @@
-
+*.html linguist-detectable=true
+*.js linguist-detectable=true
+*.csharp linguist-detectable=true

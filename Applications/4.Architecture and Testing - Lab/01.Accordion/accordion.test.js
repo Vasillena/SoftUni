@@ -1,7 +1,7 @@
 const { webkit } = require("playwright");
 const { expect } = require("chai");
 
-let browser, page; // Declare reusable variables
+let browser, page;
 
 describe("E2E tests", async function () {
   this.timeout(10000);

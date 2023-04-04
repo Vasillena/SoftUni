@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <root-app></root-app>
+    <script>
+      class myRootApp extends HTMLElement {
+        constructor() {
+          super();
+          const root = this.attachShadow({ mode: "closed" });
+          const div = document.createElement("div");
+
+          div.innerHTML = "<h1>Hello Shadow DOM</h1>";
+          root.appendChild();
+        }
+      }
+      window.customElements.define("root-app", myRootApp);
+    </script>
+  </body>
+</html>

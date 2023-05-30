@@ -56,24 +56,11 @@ article:nth-child(2) {
   position: relative;
 }
 
-
 main{
   display: grid;
   grid-template-columns: 7fr 3fr;
   gap: 5%;
 }
-
-/* main article{
-  display: inline-block;
-  width: 65%;
-  margin-right: 5%;
-}
-
-main .category-container{
-  display: inline-block;
-  width: 28%;
-} */
-
 
 main article blockquote {
   font-family: Georgia, serif;
@@ -86,6 +73,7 @@ main article blockquote {
   border-left: 4px solid #dddddd;
   padding-left: 26px;
 }
+
 main article blockquote .author-name{
   position: absolute;
   right: 20px
@@ -101,6 +89,7 @@ main article blockquote .author-name{
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
 .category-container{
  display: inline-block;
  position: absolute;
@@ -108,9 +97,11 @@ main article blockquote .author-name{
  left: 750px;
  width: 400px;
 }
+
 .category-container .category-title, .social-title{
   font-size: 22px;
 }
+
 .category-container .category-navigation ul li a, .social-navigation ul li a{
   text-decoration: none;
   color: #53974e;

@@ -1,0 +1,55 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+.viewport {
+  display: block;
+  height: 50vh;
+  position: relative;
+}
+
+/* Only for Judge  */
+/* section.card {
+  display: block;
+  position: absolute;
+} */
+
+.element1 {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(16, 98, 161) 0%,
+    rgb(13, 207, 133) 70%
+  );
+}
+
+.element2 {
+  background: linear-gradient(
+    54deg,
+    rgb(160, 17, 122) 0%,
+    rgba(217, 130, 23, 1) 71%
+  );
+}
+
+.card img {
+  width: 200px;
+}
+
+section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .icon {
+  color: white;
+  position: absolute;
+  right: 705px;
+}
+
+.icon1 {
+  bottom: 140px;
+}
+
+.icon2 {
+  bottom: 60px;
+}

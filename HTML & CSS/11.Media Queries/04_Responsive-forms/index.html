@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Forms</title>
+  </head>
+  <body>
+    <form class="login-form" method="POST">
+      <legend>
+        <p class="login-legend">Login</p>
+      </legend>
+
+      <fieldset>
+        <div class="username-container">
+          <label class="username-label" for="username">Username</label>
+          <i class="icon fa-solid fa-user fa-xs"></i>
+          <input
+            class="username-input"
+            type="text"
+            id="username"
+            name="username"
+          />
+        </div>
+        <div class="password-container">
+          <label class="password-label" for="password">Password</label>
+          <i class="icon fa-solid fa-key fa-xs"></i>
+          <input
+            class="password-input"
+            type="password"
+            id="password"
+            name="password"
+          />
+        </div>
+        <p>
+          <input class="submit-btn" type="submit" value="Login" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

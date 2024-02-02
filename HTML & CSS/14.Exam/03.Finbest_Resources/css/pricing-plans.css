@@ -1,0 +1,13 @@
+.title-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3em;
+}
+
+.prices-area {
+  display: flex;
+  background-color: white;
+  padding: 2em;
+}

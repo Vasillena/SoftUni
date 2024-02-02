@@ -1,0 +1,33 @@
+.section-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5em auto;
+}
+
+.columns {
+  display: flex;
+  gap: 1em;
+  width: 70em;
+}
+
+.columns li,
+.columns li span {
+  display: block;
+}
+
+.columns li {
+  flex: 1 1 30%;
+  text-align: center;
+  padding: 1em;
+  border-left: 1px solid gray;
+}
+
+.columns li:last-child {
+  border-right: 1px solid gray;
+}
+
+.columns li span:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}

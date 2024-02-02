@@ -1,0 +1,40 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  margin: 1em 5em;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav ul,
+.right-side ul {
+  display: flex;
+}
+
+.main-nav li,
+.main-nav a,
+.right-side li,
+.right-side a {
+  display: block;
+}
+
+.main-nav li,
+.right-side li {
+  padding: 0 0.5em;
+}
+
+.main-nav a,
+.right-side a {
+  padding: 0.8em 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.right-side li:nth-child(2) {
+  background-color: rgb(173, 226, 223);
+  border-radius: 0.6em;
+}
